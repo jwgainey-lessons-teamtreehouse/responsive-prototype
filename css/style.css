@@ -2,10 +2,19 @@ header {
     margin: 2rem, 0;
 }
 
-.featured {
-    height: 500px;
-    background: #f99;
+#featured {
     margin-bottom: 2rem;
+}
+
+.carousel-item {
+    height: 500px;
+    background: #90f;
+}
+.carousel-item:nth-child(2){
+    background: #09f;
+}
+.carousel-item:nth-child(3){
+    background: #0f9;
 }
 
 .profile-info img {
